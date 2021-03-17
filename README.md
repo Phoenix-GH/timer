@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Timer app by Francesco Imbalzano
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The timer component is built using [React Bootstrap](https://react-bootstrap.netlify.app/) and [Moment.js](https://momentjs.com/).
 
 ## Available Scripts
 
