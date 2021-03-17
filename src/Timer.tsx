@@ -18,6 +18,9 @@ const Timer: React.FC<Props> = () => {
       setStarted(false);
       clearTimeout(timer);
     }
+    if(!started) {
+      clearTimeout(timer);
+    }
     // Clear timeout if the component is unmounted
     return () => clearTimeout(timer);
   }, [started, remaining]);
